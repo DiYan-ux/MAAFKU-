@@ -38,7 +38,7 @@ document.getElementById("play-music").addEventListener("click", function() {
 
 document.getElementById("forgive-btn").addEventListener("click", function() {
     let waNumber = "6285876202818"; // Ganti dengan nomor WA Kak Intan (gunakan format internasional tanpa "+")
-    let waMessage = encodeURIComponent("Makasih Kak Intan udah maafin aku! ❤️");
+    let waMessage = encodeURIComponent("Iyaa Aku maafin Jangan di ulangi lagi yaa! ❤️");
     let waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
     
     // Set href pada tombol WhatsApp
